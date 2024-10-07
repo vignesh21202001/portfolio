@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.back {
+    width: 35vw;
+    height: 80vh;
+    background-color: rgb(29, 27, 24);
+    margin-top: 12vh;
+    margin-left: 10vw;
+}
+
+.back section {
+    display: flex;
+    gap: 2vw;
+
+}
+
+.back header {
+    width: 100%;
+    height: 30vh;
+}
+
+.back header #out {
+    width: 33.3vw;
+    height: 6vh;
+    margin-left: 0.9vw;
+    margin-top: 0.5vh;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.back header #dis {
+    width: 33.3vw;
+    height: 13vh;
+    margin-left: 0.9vw;
+    margin-top: 2vh;
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+
+}
+
+.back section {
+    margin: 0.6rem;
+
+}
+
+.back section .numbers input {
+    width: 5vw;
+    height: 7vh;
+    margin: 0.3rem;
+    font-size: larger;
+    background-color: rgb(241, 238, 37);
+
+}
+
+.back section .expressions input {
+    width: 6vw;
+    height: 7vh;
+    margin: 0.3rem;
+    font-size: larger;
+    background-color: rgb(189, 255, 6);
+}
+
+.back section .expressions #c {
+    background-color: rgb(245, 97, 97);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.back section .expressions #eq {
+    background-color: rgb(70, 230, 70);
+}
